@@ -78,6 +78,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 UclIncop Recipe App (SPA)
 
 Guest users can:
+
 •	Register an account
 •	Log in to their account
 •	View the Home Page
@@ -85,6 +86,7 @@ Guest users can:
 •	View the details page of the recipe
 
 Logged in users can:
+
 •	Favourite  recipe
 •	Unfavourite recipe
 •	Like recipe
@@ -96,12 +98,14 @@ Logged in users can:
 •	Visit their profile page and view their latest recipe creations
 
 Guest user Pages:
+
 •	Home
 •	Recipes
 •	Register
 •	Log In
 
 Logged in user Pages:
+
 •	Home
 •	Recipes
 •	Shared Recipes (collection of the recipes created by other users, who allowed the public display of their recipe)

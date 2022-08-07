@@ -108,7 +108,7 @@ Logged in users can:
 
 •	Nested edit and delete functionality inside their recipe details view
 
-•	Visit their profile page and view their last three recipes they have created
+•	Visit their profile page and view the last three recipes they have created
 
 
 Guest user Pages:
@@ -136,5 +136,5 @@ Logged in user Pages:
 
 •	Create Recipe 
 
-•	Your Profile (the user’s profile page with their last three recipes they have created)
+•	Your Profile (the user’s profile page with the last three recipes they have created)
 

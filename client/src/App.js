@@ -1,6 +1,8 @@
 import './App.css';
 
 import { Route, Routes} from 'react-router-dom';
+import { useState, useEffect,useLayoutEffect } from 'react';
+import { Navigate } from 'react-router-dom';
 
 import Register from './components/Authentication/Register/Register';
 import Home from './components/Home/Home.js';
@@ -8,26 +10,27 @@ import Login from './components/Authentication/Login/Login';
 import User from './components/User/User';
 import CreateRecipe from './components/Recipe/CreateRecipe/CreateRecipe';
 import RecipesCatalog from './components/RecipesCatalog/RecipesCatalog';
-import { useState, useEffect,useLayoutEffect } from 'react';
 import Header from './components/Header/Header';
 import Favourites from './components/Favourites/Favourites';
 import PersonalList from './components/PersonalList/PersonalList';
 import Footer from './components/Footer/Footer';
-import { Navigate } from 'react-router-dom';
 import Details from './components/Recipe/Details/Details';
-import * as recipeService from './services/recipeService';
 import EditRecipe from './components/EditRecipe/EditRecipe';
 import DetailsUser from './components/Recipe/DetailsUser/DetailsUser';
 import Logout from './components/Authentication/Logout/Logout';
-import { NotificationProvider } from './contexts/NotificationContext';
 import Notification from './common/Notification';
-import { AuthContext } from './contexts/AuthContext';
 import Navbar from './components/NavBar/NavBar';
 import useLocalStorage from './hooks/useLocalStorage';
 import ShareRecipes from './components/SharedRecipes/SharedRecipes';
-import * as userService from './services/userService';
 import DetailsShared from './components/Recipe/DetailsShared/DetailsShared';
 import DetailsFavourite from './components/Recipe/DetailsFavourite/DetailsFavourite';
+
+import { AuthContext } from './contexts/AuthContext';
+import { NotificationProvider } from './contexts/NotificationContext';
+
+import * as userService from './services/userService';
+import * as recipeService from './services/recipeService';
+
 
 
 const initialAuthState = {

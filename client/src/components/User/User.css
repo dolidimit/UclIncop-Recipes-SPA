@@ -1,0 +1,186 @@
+.sec12 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 250px;
+}
+
+.sec12 .ownreci {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.sec12 h2 {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.sec12 .mainu {
+    text-align: center;
+}
+
+.sec12 h4 {
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 35px;
+    justify-self: center;
+}
+
+.sec12 .artsm {
+    width: 1000px;
+    height: 840px;
+    border-radius: 40px;
+    border: 0.5px solid #fea41c;
+    box-shadow: 2px 7px 19px 3px #faa723;
+    padding: 24px;
+    font-size: 25px;
+    margin-top: 60px;
+    text-align:center;
+    font-style: italic;
+
+}
+
+.sec12 .artsm img {
+    border-radius: 50%;
+    border: 5px solid #fec10ca7;
+    width: 180px;
+    height: 180px;
+}
+
+.sec12 .mainu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 50px;
+}
+
+.sec12 .mainu article {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    margin-top: 80px;
+}
+
+.sec12 .headinu {
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.fa-arrow-down {
+    margin-top: -40px;
+}
+
+
+.sec12 .mainu article p {
+    width: 300px;
+    font-size: 21px;
+    line-height: 35px;
+    margin-left: 0px;
+    margin-top: -30px;
+    align-self: center;
+    text-align: center;
+    font-style: italic;
+}
+
+.artsm .inst {
+    width: 800px;
+    margin-left: 78px;
+    margin-top: 35px;
+}
+
+
+.sec12 .mainu article .btns .btnd {
+    background-color: #ffffff;
+    border-color: black;
+    width: 85px;
+    height: 45px;
+    color: #11222C;
+    font-size: 17px;
+    border-radius: 50px;
+    align-self: center;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Comfortaa', cursive;
+    margin-right: 5px;
+}
+
+.sec12 .mainu article .btns .btnedi {
+    background-color: #F6C624;
+    border-color: transparent;
+    width: 85px;
+    height: 45px;
+    color: #11222C;
+    font-size: 17px;
+    border-radius: 50px;
+    align-self: center;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Comfortaa', cursive;
+}
+
+.sec12 .mainu article .btns .btndele {
+    background-color: #53B1B1;
+    border-color: transparent;
+    width: 85px;
+    height: 45px;
+    color: #11222C;
+    font-size: 17px;
+    border-radius: 50px;
+    align-self: center;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Comfortaa', cursive;
+    margin-left: 5px;
+}
+
+
+
+.sec12 .mainu article .btnd:hover {
+    background-color: rgb(238, 238, 245);
+    color: #000000;
+}
+
+.sec12 .mainu article .btnedi:hover {
+    background-color: #fee033;
+    color: #000000;
+}
+
+.sec12 .mainu article .btndele:hover {
+    background-color: #5bd0d0;
+    color: #000000;
+}
+
+
+.sec12 .mainu article img {
+    width: 260px;
+    height: 310px;
+    border-radius: 40px;
+    border: 0.5px solid gainsboro;
+    box-shadow: 2px 7px 19px 3px rgba(118,118,118,0.38);
+    padding: 7px;
+}
+
+.imgi {
+    border-width: thin;
+    border: 0.1px solid gainsboro;
+    background-color: rgba(253, 253, 253, 0.963);
+}
+
+.sec12 .mainu article h1 {
+    font-size: 37px;
+    margin-bottom: 50px;
+    font-style: normal;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+

@@ -1,0 +1,137 @@
+.artsmcom {
+    width: 1400px;
+    height: 640px;
+    border-radius: 40px;
+    border: 0.5px solid #53b1b17c;
+    box-shadow: 2px 7px 19px 3px #5abebe7d;
+    padding: 24px;
+    font-size: 25px;
+    margin-top: 40px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.artsmcom:hover {
+    background-color: #7cd0d00a;
+}
+
+.artsmcom ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.form input {
+    border-radius: 30px;
+    font-size: 25px;
+    background-color: #f5f2f24e;
+    padding: 7px;
+}
+
+.artsmcom .comment {
+    width: 510px;
+    height: 390px;
+    border-radius: 40px;
+    border: 0.5px solid #f690008d;
+    box-shadow: 2px 7px 19px 3px #f69000b7;
+    padding: 9px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 50px;
+    margin-top: -100px;
+    margin-left: 5px;
+}
+
+.artsmcom .comment>.form>textarea {
+    resize: none;
+    width: 480px;
+    height: 150px;
+    margin-top: 22px;
+    margin-bottom: 28px;
+    padding: 15px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.details-comments {
+    display: table-cell;
+}
+
+.comment p {
+    padding: 16px;
+}
+
+.artsmcom .comment textarea {
+    border-radius: 40px;
+    resize: none;
+    width: 100px;
+    height: 100px;
+    margin-top: 22px;
+    margin-bottom: 28px;
+    padding: 5px;
+}
+
+.artsmcom .comment:hover {
+    background-color: #f6a0003c;
+}
+
+.artsmcom .comment .btncom {
+    background-color: #ffffff;
+    border-color: black;
+    width: 190px;
+    height: 55px;
+    font-size: 18px;
+    border-radius: 50px;
+    align-self: center;
+    font-weight: 600;
+    cursor: pointer;
+    font-style: normal;
+    font-family: 'Comfortaa', cursive;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.artsmcom .comment .btncom:hover {
+    background-color: #e08301;
+    border: none;
+    color: white;
+}
+
+.artsmcom h1,h2 {
+    text-align: center;
+}
+
+.artsmcom .elements {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.artsmcom .commenttext {
+    width: 410px;
+    height: 120px;
+    padding-right: -5px;
+    padding-left: 15px;
+    border-radius: 40px;
+    border: 0.5px solid #f48115e6;
+    box-shadow: 2px 7px 19px 3px #f09e41cb;
+    background-color: #ffffff;
+    margin-top: 30px;
+}
+
+.no-comment {
+    text-align: center;
+}
+
+.artsmcom .commenttext .cut-text {
+    margin-top: 30px;
+}
+
+.artsmcom .comment h1,h2,h3,label {
+    text-align: center;
+}

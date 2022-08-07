@@ -1,0 +1,43 @@
+.sec5navl ul {
+    background-color: #f69000bc;
+    box-shadow: 2px 7px 19px 3px rgba(140, 140, 140, 0.64);
+    width:1050px;
+    height: 105px;
+    border-radius: 50px;
+    margin-left: 601px;
+    margin-bottom: 100px;
+    margin-top: -100px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.sec5navl ul li{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    font-size: 23px;
+    margin-left: 46px;
+    margin-top: 14px;
+    color: #7e4a01;
+    cursor: default;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.sec5navl i {
+    color: black;
+    font-size: 40px;
+}
+
+.sec5val ul li  i {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.sec5navl ul li i:hover {
+    color: #ffffff;
+}

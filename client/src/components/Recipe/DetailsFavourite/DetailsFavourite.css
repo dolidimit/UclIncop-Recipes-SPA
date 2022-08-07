@@ -1,0 +1,30 @@
+.leavedef {
+    margin-top: 10px;
+    margin-right: 0px;
+}
+
+.leavedef {
+    border-radius: 50%;
+    background-color: #ffffff94;
+    color: #fff;
+    border: none;
+    background-color: none;
+    cursor: pointer;
+    padding-left: -10px;
+}
+
+a:hover {
+    color: #fff;
+}
+
+.leavedef i {
+    font-size: 48px;
+    color: rgba(249, 160, 27, 0.629);
+}
+
+.leavedef i:hover {
+    color: #f69000f8;
+}
+.leavedef:hover {
+    background-color: #ffffffd5;
+}

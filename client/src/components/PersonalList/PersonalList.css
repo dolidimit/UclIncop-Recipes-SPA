@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Charm:wght@400;700&family=Comfortaa:wght@300;400;500&family=Courgette&family=League+Script&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Petit+Formal+Script&family=Tangerine:wght@400;700&display=swap');
+
+.secper .artsec4 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-self: center;
+ }
+
+ .artsec4 article {
+    width: 430px;
+    gap: 40px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.btns4 {
+    margin-top: 10px;
+}
+
+.secper article img {
+    width: 270px;
+    height: 280px;
+    border-radius: 40px;
+    border: 1px solid gainsboro;
+    box-shadow: 2px 7px 19px 3px rgba(118,118,118,0.38);
+    padding: 7px;
+}
+
+.secper article h1 {
+    font-size: 33px;
+    margin-bottom: 50px;
+    margin-top: 18px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.secper article p {
+    width: 300px;
+    font-size: 21px;
+    line-height: 35px;
+    margin-left: 50px;
+    margin-top: -30px;
+    align-self: center;
+    text-align: center;
+    font-style: italic;
+}
+
+.cut-text { 
+    line-height: 1.6rem;
+    overflow: hidden;
+    display: -webkit-box; 
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    max-height: 6.5rem;
+}
+
+
+
+
+.secper h1 {
+    font-size: 45px;
+    text-align: center;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+.errorpaper {
+    margin-right: 20px;
+}
+
+.errorpaper h1 {
+    font-size: 40px;
+    margin-top: -20px;
+    margin-bottom: 40px;
+    border-radius: 40px;
+    margin-left: 500px;
+    padding-top: 5px;
+    padding-bottom: -20px;
+    width: 500px;
+    height: 70px;
+    border: 0.5px solid #fea41c;
+    box-shadow: 2px 6px 9px 0px #faa823da;
+    background-color: rgba(255, 255, 255, 0.922);
+}
+
+
+.secper article h1 {
+    margin-top: 20px;
+}
+
+.secper .cut-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.secper article {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.secper {
+    margin-bottom: 200px;
+}
+
+
+.detbtn {
+    background-color: #ffffff;
+    border: 1px solid black;
+    padding: 12px;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: #11222C;
+    font-size: 18px;
+    border-radius: 50px;
+    align-self: center;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Comfortaa', cursive;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.detbtn:hover {
+    background-color:  rgb(238, 238, 245);
+    color: #000;
+}
+
+.edbtn {
+    background-color: #F6C624;
+    border-color: transparent;
+    padding: 11px;
+    padding-left: 27px;
+    padding-right: 27px;
+    color: #11222C;
+    font-size: 18px;
+    border-radius: 50px;
+    align-self: center;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+}
+
+.deletebp {
+    background-color:#4fa8a8;
+    border-color: transparent;
+    width: 93px;
+    height: 40px;
+    color: #11222C;
+    font-size: 18px;
+    border-radius: 50px;
+    align-self: center;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+    margin-left: 5px;
+}
+
+.articles {
+    text-align: center;
+    justify-content: center;
+}
+
+.deletebp:hover {
+    background-color:#53b1b1bc;
+    color: #000;
+}
+
+.edbtn:hover {
+    background-color: #fee033;
+    color: #000000;
+}
+
+.detbtn {
+    background-color: transparent;
+    border-color: black;
+    padding: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: #11222C;
+    font-size: 18px;
+    border-radius: 50px;
+    align-self: center;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+    margin-left: 5px;
+}
+
+.detbtn:hover {
+    background-color: rgba(220, 220, 220, 0.186);
+    color: #000000;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.secper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+div h1 {
+    font-size: 45px;
+    text-align: center;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.secper article {
+    width: 480px;
+}

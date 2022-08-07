@@ -1,0 +1,25 @@
+
+
+.errorpaper h1 {
+        font-size: 40px;
+        margin-top: -5px;
+        margin-bottom: 30px;
+        border-radius: 40px;
+        margin-left: 500px;
+        padding-top: 5px;
+        padding-bottom: -20px;
+        width: 500px;
+        height: 70px;
+        border: 0.5px solid #fea41c;
+        box-shadow: 2px 6px 9px 0px #faa823da;
+        background-color: rgba(255, 255, 255, 0.922);
+}
+
+.errorpaper {
+   margin-left: 10px;
+}
+
+div h1 {
+   font-style: normal;
+}
+    

@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Charm:wght@400;700&family=Comfortaa:wght@300;400;500&family=Courgette&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Tangerine:wght@400;700&display=swap');
+
+.sec4 .artsec4 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-items: center;
+    justify-self: center;
+    margin-left: 220px;
+    margin-bottom: 300px;
+}
+
+.sec4 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 150px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: -30px;
+}
+
+.sec4 article {
+    width: 500px;
+}
+
+
+.sec4 .artsec4 article {
+    width: 400px;
+    gap: 40px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.sec4 article img {
+   width: 260px;
+    height: 260px;
+    border-radius: 40px;
+    border: 0.5px solid gainsboro;
+    box-shadow: 2px 7px 19px 3px rgba(118,118,118,0.38);
+    padding: 7px; 
+}
+
+.sec4 article h1 {
+    font-size: 28px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    margin-top: 25px;
+    font-style: normal;
+    text-align: center;
+}
+
+.sec4 article p {
+    width: 255px;
+    font-size: 19px;
+    line-height: 35px;
+    margin-left: 100px;
+    margin-top: -33px;
+    align-self: center;
+    text-align: center;
+    font-style: normal;
+}
+
+.cut-text { 
+    line-height: 1.6rem;
+    overflow: hidden;
+    display: -webkit-box; 
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    max-height: 6.5rem;
+}
+
+.sec4 article button {
+    background-color: #ffffff;
+    border-color: black;
+    width: 130px;
+    height: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    border-radius: 50px;
+    align-self: center;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Comfortaa', cursive;
+}
+
+.sec4 article button:hover {
+    background-color: ghostwhite;
+}
+
+.sec4 article .favour i {
+    font-size: 25px;
+}
+
+.sec4 article .favour {
+    width: 50px;
+    background-color: transparent;
+    border-color: transparent;
+    margin-left: 9px;
+    padding-top: 8px;
+}
+
+.sec4 article .favour:hover {
+    background-color: rgba(227, 22, 22, 0.866);
+    color: white;
+}
+
+
+
+
+.sec4 {
+    scroll-behavior: smooth;
+}
+
+.sec4 h1 {
+    font-size: 45px;
+    text-align: center;
+    font-style: normal;
+}
+
+html {
+
+    scroll-behavior: smooth;
+}
+

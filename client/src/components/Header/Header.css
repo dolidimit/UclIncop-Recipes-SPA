@@ -1,0 +1,180 @@
+.nav2 {
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    height: 80px;
+    border: 1px solid #F69000;
+    border-radius: 58px;
+    background-color: #F69000;
+    box-shadow: 2px 10px 23px -7px rgba(156, 155, 155, 0.241);
+    text-decoration: none;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.nav2 {
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav2 a {
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    margin-top: 21px;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.nav2 a:hover {
+    color: #11222C;
+    font-weight: 600;
+ }
+
+.nav2 i {
+    font-size: 54px;
+    color: #ffffff;
+    margin-top: 12px;
+    margin-left: 70px;
+}
+
+
+.btnsign {
+    margin-left: 1660px;
+    margin-top: 17px;
+}
+
+.nav2 a {
+    margin-left: 12px;
+    font-weight: 500;
+}
+
+.userl {
+    margin-top: 17px;
+}
+
+.navlinks {
+    margin-right: 1290px;
+    margin-top: 4px;
+    margin-left: -8px;
+    margin-left: -20px;
+}
+
+.navlinks a {
+    margin-left: 24px;
+}
+
+.btnsig {
+    background-color: #11222C;
+    width: 120px;
+    height: 45px;
+    border-radius: 40px;
+    font-weight: 600;
+    border-color: black;
+    cursor: pointer;
+    font-family: 'Comfortaa', cursive;
+}
+
+.btnsig a {
+    color: #f9f9f9db;
+    font-size: 19px;
+    margin-left: 0px;
+}
+
+.btnsig a:hover {
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.btnsig:hover {
+    background-color: black;
+    color: white;
+}
+
+.btnlin {
+    background-color:rgb(251, 249, 249);
+    color: rgb(45, 44, 44);
+    width: 123px;
+    height: 43px;
+    border-radius: 40px;
+    font-size: 18px;
+    margin-left: 13px;
+    font-weight: 600;
+    border: 1px solid black;
+    cursor: pointer;
+    font-family: 'Comfortaa', cursive;
+}
+
+.btnlin a {
+    color: #11222C;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: -2px;
+}
+
+.btnlin a:hover {
+    color: #000;
+    font-size: 20px;
+    background-color: #ffffff;
+    font-weight: 500;
+}
+
+.btnlin:hover {
+    background-color: #ffffff;
+}
+
+.userl .btnlout {
+    background-color:rgba(249, 249, 249, 0.564);
+    color: rgb(45, 44, 44);
+    width: 120px;
+    height: 45px;
+    border-radius: 40px;
+    margin-left: 13px;
+    font-weight: 600;
+    border: 1px solid black;
+    cursor: pointer;
+    font-family: 'Comfortaa', cursive;
+}
+
+.btnlogb {
+    margin-left: 1530px;
+    margin-top: -40px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding-left: 10px;
+}
+
+
+.btnlogb .fas.fa-solid.fa-user {
+    font-size: 35px;
+    margin-right: 6px;
+    margin-top: 12px;
+}
+
+.btnlogb .userl {
+    margin-top: -10px;
+    margin-right: 10px;
+}
+
+
+.btnlout a {
+    color: #000;
+    font-weight: 500;
+    font-size: 19px;
+    margin-left: 1px;
+}
+
+.btnlout a:hover {
+    color: #000;
+    font-weight: 500;
+}
+
+.btnlout:hover {
+    background-color: #ffffff;
+}
+

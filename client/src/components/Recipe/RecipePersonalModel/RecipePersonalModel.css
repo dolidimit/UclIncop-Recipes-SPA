@@ -1,0 +1,79 @@
+.artsec4 .img2 {
+    width: 270px;
+    height: 250px;
+    border-radius: 40px;
+    border-bottom: 0.2px solid gainsboro;
+    box-shadow: 2px 7px 19px 3px rgba(118,118,118,0.38);
+    padding: 7px; 
+}
+
+.artsec4 {
+    width: 400px;
+}
+
+.articles .deletebp {
+    background-color: #309494de;
+    border-color: transparent;
+    padding: 6px;
+    padding-left: 15px;
+    padding-right: 27px;
+    color: #11222C;
+    font-size: 18px;
+    border-radius: 50px;
+    align-self: center;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+    margin-top: -6px;
+}
+
+.aritcles9 .cut-text6 {
+    width: 255px;
+    font-size: 19px;
+    line-height: 35px;
+    margin-left: 8px;
+    margin-top: -33px;
+    align-self: center;
+    text-align: center;
+    font-style: italic;
+}
+
+.aritcles9 p {
+    width: 300px;
+}
+
+.artuse {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+.artuse .cut-text {
+    width: 255px;
+    font-size: 19px;
+    line-height: 35px;
+    margin-left: 8px;
+    margin-top: -33px;
+    align-self: center;
+    text-align: center;
+    font-style: italic;
+    margin-left: 30px;
+}
+
+.cut-text { 
+    line-height: 1.6rem;
+    overflow: hidden;
+    display: -webkit-box; 
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    max-height: 6.5rem;
+}
+
+.artsec4 p {
+    width: 300px;
+}
+

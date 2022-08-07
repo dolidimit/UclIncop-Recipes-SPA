@@ -1,0 +1,101 @@
+.articles img {
+    width: 240px;
+    height: 250px;
+    border-radius: 40px;
+    border-bottom: 0.2px solid gainsboro;
+    box-shadow: 2px 7px 19px 3px rgba(118,118,118,0.38);
+    padding: 7px; 
+}
+
+.articles h1 {
+    font-size: 28px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    margin-top: 25px;
+    font-style: normal;
+    text-align: center;
+}
+
+
+.btns1 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+.favour {
+    width: 50px;
+    background-color: transparent;
+    border-color: transparent;
+    margin-left: 5px;
+    padding-top: 4px;
+}
+
+
+.sec4 article .favour:hover {
+    background-color: rgba(227, 22, 22, 0.866);
+    color: white;
+}
+
+.like {
+    width: 20px;
+    background-color: transparent;
+    border: none;
+    margin-left: 5px;
+    padding-top: 4px;
+}
+
+.like i {
+    font-size: 27px;
+}
+
+.articles .cut-text {
+    width: 255px;
+    font-size: 19px;
+    line-height: 35px;
+    margin-left: 8px;
+    margin-top: -33px;
+    align-self: center;
+    text-align: center;
+    font-style: italic;
+}
+
+.cut-text { 
+    line-height: 1.6rem;
+    overflow: hidden;
+    display: -webkit-box; 
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    max-height: 6.5rem;
+}
+
+
+
+.articles .btnd {
+    background-color: #ffffff;
+    border-color: black;
+    width: 110px;
+    height: 45px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    border-radius: 50px;
+    align-self: center;
+    font-weight: 600;
+    cursor: pointer;
+    padding-top: 8px;
+    padding-bottom: -40px;
+    font-family: 'Comfortaa', cursive;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+
+
+.articles .btnd:hover {
+    background-color: ghostwhite;
+}
+
+.alerm {
+    display: none;
+}

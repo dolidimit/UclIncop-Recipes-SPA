@@ -55,7 +55,7 @@ function Favourites() {
                           </div> 
                 }
                
-               {/* {favourites.map(x => <RecipeFavourite key ={x._id} recipe={x} />)} */}
+               
             
             </section>
         </div>

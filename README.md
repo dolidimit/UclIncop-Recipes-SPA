@@ -80,36 +80,61 @@ UclIncop Recipe App (SPA)
 Guest users can:
 
 •	Register an account
+
 •	Log in to their account
+
 •	View the Home Page
+
 •	View the Recipes Catalog Page
+
 •	View the details page of the recipe
+
 
 Logged in users can:
 
 •	Favourite  recipe
+
 •	Unfavourite recipe
+
 •	Like recipe
+
 •	Create recipe
+
 •	View the details page of their recipe
+
 •	Edit their recipe
+
 •	Delete their recipe
+
 •	Nested edit and delete functionality inside their recipe details view
+
 •	Visit their profile page and view their latest recipe creations
+
 
 Guest user Pages:
 
 •	Home
+
 •	Recipes
+
 •	Register
+
 •	Log In
+
 
 Logged in user Pages:
 
 •	Home
+
 •	Recipes
+
 •	Shared Recipes (collection of the recipes created by other users, who allowed the public display of their recipe)
+
 •	Favourites (collection of the user’s favourite recipes)
+
 •	Personal list (collection of the recipes created by the user)
+
 •	Create Recipe 
+
 •	Your Profile (the user’s profile page with their last three recipes they have created)
+
